@@ -1,0 +1,85 @@
+
+.main-content h1 {font-size:300%;
+	font-family:cursive;
+	padding:0.25em;
+	margin-bottom:0.25em;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.main-content h1 b{
+	font-family:fantasy;
+	border-bottom:4px solid blue;
+	box-shadow:5px 2px grey;
+	font-size:120%;
+	padding:0.1em;
+}	
+
+.main-content p {font-family:sans-serif;
+   font-size:150%;
+   line-height:1.5em;
+   padding:0.1em;}
+
+.main-content{
+	font-family:sans-serif;
+	border: 3px solid #f1f1f1;
+	padding-bottom:12px;}
+
+.main-content input[type="text"], .main-content input[type="password"], .main-content input[type="submit"]{
+	width:80%;
+	padding:12px;
+	margin:12px auto;
+	display: block;
+	border: 1px solid #cccccc;
+	border-radius:2px;
+	box-sizing: border-box;
+}
+
+.main-content input[required="required"]{border:2px solid red;}
+
+.main-content button{
+	background-color: #4caf50;
+	color: white;
+	padding: 12px;
+	margin: 12px;
+	border:none;
+	cursor: pointer;
+	width:50%;
+}
+
+.main-content form.registration{
+	font-family:sans-serif;
+	width:100%;
+}
+
+.main-content form.registration table {width:100%;
+	padding:10px;
+	}
+	
+.main-content form.registration table td {margin-right:10px;
+	}	
+
+.main-content form.registration a {
+	line-height:2em;
+	margin:1em;
+}
+
+@media only screen and (min-width: 600px) {
+	.main-content form.registration {width:70%;
+					   margin-left:auto;
+					   margin-right:auto;
+					   max-width:400px;
+	}
+	
+	.main-content form.registration table td {width:50%;
+	}
+	
+	.main-content form.registration input[type="text"], .main-content form.registration input[type="password"]{
+		width:100%;
+	}
+					  
+	.main-content input[type="submit"]{
+		max-width:7em;
+	}				  
+}
+

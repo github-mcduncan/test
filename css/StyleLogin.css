@@ -1,0 +1,112 @@
+form{border: 3px solid #f1f1f1;
+	padding-bottom:12px;}
+
+input[type="text"], input[type="password"]{
+	width:80%;
+	padding:12px;
+	margin:12px auto;
+	display: block;
+	border: 1px solid #cccccc;
+	border-radius:2px;
+	box-sizing: border-box;
+}
+
+button{
+	background-color: #4caf50;
+	color: white;
+	padding: 12px;
+	margin: 12px;
+	border:none;
+	cursor: pointer;
+	width:50%;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+.notmember {border: 3px solid black;
+			border-radius:3px;
+			padding:12px;}
+			
+div.notmember h2{font-size:200%;
+				 padding-bottom: 12px;
+				 text-align:center;}		
+
+.registerbtn{
+	display:block;
+	margin:auto;
+	width:5em;
+	padding: 12px;
+	color:black;
+	background-color:#3366ff;
+	text-decoration:none;
+	transition: border 0.5s, color 0.5s, background-color 0.5s;
+}				 
+
+.registerbtn:hover{
+	border:2px solid #3366ff;
+	color:#3366ff;
+	background-color:white;
+}	
+
+.loginbtn{
+	display:block;
+	margin:auto;
+	width:auto;
+	padding: 12px;
+	color:black;
+	background-color:#40bf40;
+	text-decoration:none;
+	transition:0.5s;
+}
+
+.loginbtn:hover{
+	color:#40bf40;
+	background-color:white;
+	border:2px solid #40bf40;
+	border-radius:3px;
+}
+
+.cancelbtn{
+	width:auto;
+	padding: 12px;
+	color:black;
+	background-color:#f44336;
+	text-decoration:none;
+	transition:0.5s;
+}
+
+.cancelbtn:hover{
+	border:2px solid #f44336;
+	border-radius:3px;
+	color:#f44336;
+	background-color:white;
+}
+
+.imgcontainer{
+	text-align:center;
+	margin:12px;
+}
+
+img.avatar{
+	width:40%;
+}
+
+.container{
+	padding:12px;
+}
+
+span.psw{
+	float:right;
+}
+
+@media screen and (max-width: 300px){
+	span.psw{
+		display:block;
+		float:none;
+	}
+	.cancelbtn{
+		width:100%;
+	}
+}

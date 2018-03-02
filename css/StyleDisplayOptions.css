@@ -1,0 +1,41 @@
+.display-options{
+	padding:12px;
+	font-family:sans-serif;
+	margin-top:12px;
+}
+
+.display-options h2{
+	font-size:150%;
+	padding-bottom:0.5em;
+	text-align:center;
+	border-bottom:2px solid blue;
+}
+
+.display-options p{
+	padding:12px;
+	text-align:center;
+}
+
+/*this is not doing anything*/
+.display-options label{
+	padding-bottom:12px;
+}
+
+.display-options input[type="submit"]{
+	display:block;
+	margin:1em auto;
+	height:2em;
+	width:5em;
+	font-size:150%;
+	color:white;
+	background-color:#ffd633;
+	border:2px solid #ffd633;
+	border-radius:3px;
+	transition:color 0.5s, background-color 0.5s; 
+}
+
+.display-options input[type="submit"]:hover{
+	color:#ffd633;
+	background-color:white;
+}
+

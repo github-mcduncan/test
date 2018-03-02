@@ -1,0 +1,118 @@
+/*start login base user prompt styling*/
+#popup-base{
+	border:2px solid black;
+	border-radius:5px;
+	line-height:2em;
+	font-family:sans-serif;
+	font-size:150%;
+	margin:20px;
+	position:absolute;
+	left:20%;
+	top:30%;
+	width:auto;
+}
+
+#popup-base form{
+	border:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#popup-base input[type="submit"]{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	border:2px solid white;
+	border-radius:5px;
+	color:white;
+	padding:1em 2em;
+}
+
+#popup-base a{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	border:2px solid white;
+	border-radius:5px;
+	color:white;
+	padding:1em 2em;
+	text-decoration:none;
+}
+
+#popup-base h2{
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+	padding:1em;
+	font-weight:bold;
+	text-align:center;
+}/*end login base user prompt styling*/
+
+/*=================start login-success user prompt styling=================*/
+#popup-base.success{
+	font-size:200%;
+	background-color:#dff2bf;
+}
+
+#popup-base.success input[type="submit"]{
+	background-color:#3385ff;
+}
+
+#popup-base.success h2{
+	color:#4f8a10;
+	font-size:200%;
+}/*end login-success user prompt styling*/	
+
+/*========================start login-error user prompt box====================*/
+#popup-base.error{
+	font-size:120%;
+	background-color:#ffd2d2;
+}
+
+#popup-base.error input[type="submit"]{
+	background-color:#ff1a1a;
+}
+
+#popup-base.error h2{
+	color:#d8000c;
+	font-size:120%;
+}/*start login-error user prompt box*/
+
+/*========================start login-error user prompt box====================*/
+#popup-base.info{/*not started*/
+	font-size:120%;
+	background-color:#bde5f8;/*#ffffff;*/
+}
+
+#popup-base.info input[type="submit"]{
+	background-color:#1a53ff;/*#1a53ff;*/
+	display:inline;
+}
+
+#popup-base.info a{
+	font-size:100%;
+	background-color:#1a53ff;/*#1a53ff;*/
+	display:inline;
+}
+
+#popup-base.info h2{
+	color:#00529b;
+	font-size:120%;
+}/*start login-error user prompt box*/
+
+/*========================start login-error user prompt box====================*/
+#popup-base.warn{/*not started*/
+	font-size:120%;
+	background-color:#feefb3;
+}
+
+#popup-base.warn input[type="submit"]{
+	background-color:#ff1a1a;
+}
+
+#popup-base.warn h2{
+	font-size:120%;
+	color:#9f6000;
+}/*start login-error user prompt box*/
